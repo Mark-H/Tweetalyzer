@@ -2,11 +2,9 @@
 /* @var modX $modx
  * @var array $scriptProperties
  **/
-$defaults = include 'tweetalyzer.properties.php';
-$scriptProperties = array_merge($defaults,$scriptProperties);
-
-
 $path = $modx->getOption('tweetalyzer.core_path',$config,$modx->getOption('core_path').'components/tweetalyzer/');
+$defaults = include $path . '/elements/snippets/tweetalyzer.properties.php';
+$scriptProperties = array_merge($defaults,$scriptProperties);
 require_once $path . '/model/tweetalyzer.class.php';
 $tweetalyzer = new Tweetalyzer($modx, $scriptProperties);
 
