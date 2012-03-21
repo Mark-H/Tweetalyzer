@@ -1,0 +1,4 @@
+++  Tweetalyzer 1.0.0-pl, 21-03-2012
+++++++++++++++++++++++++++++++++++++
+
+First release, specially for Ryan!

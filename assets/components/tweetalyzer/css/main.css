@@ -1,0 +1,36 @@
+#tweetalyzer {
+    margin: 0;
+    padding: 0;
+}
+#tweetalyzer li {
+    border: 1px solid blue;
+    margin: 0 0 2px 0;
+    padding: 5px;
+    float: left;
+    clear: both;
+    list-style-type: none;
+    width: 100%;
+}
+#tweetalyzer span {
+    float: left;
+    display: block;
+}
+#tweetalyzer span.sentiment {
+    width: 30px;
+}
+#tweetalyzer span.user {
+    width: 250px;
+    margin-left: 50px;
+}
+#tweetalyzer span.tweet {
+    width: auto;
+}
+#tweetalyzer .neg {
+    background-color: #ff7980;
+}
+#tweetalyzer .neu {
+
+}
+#tweetalyzer .pos {
+    background-color: #a1d99c;
+}
